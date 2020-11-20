@@ -4,7 +4,7 @@ Online version at https://morning-cove-80203.herokuapp.com/frontend/
 
 Localhost address http://localhost/frontend/
 
-Code for multiplayer snake game based from [tutorial](https://www.youtube.com/watch?v=ppcBIHv_ZPs) on the Traversy Media YouTube channel.
+Code for multiplayer snake game is based in this [tutorial](https://www.youtube.com/watch?v=ppcBIHv_ZPs) on the Traversy Media YouTube channel.
 
 To deploy this version to Heroku you need only github deploy configuration so this is a more simple version to deploy than [this video](https://www.youtube.com/watch?v=M9RDYkFs-EQ).
 
