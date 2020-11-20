@@ -81,6 +81,14 @@ const updatePlayerPosition = ({pos, vel}, blocks) => {
     pos.y -= vel.y;
   }
 
+  if(pos.y < 0){
+    pos.y = 0;
+  }
+  if(pos.x < 0){
+    pos.x = 0;
+  }
+
+
   return {
     pos,vel
   }
@@ -122,6 +130,8 @@ function gameLoop(state) {
     const finder = new PF.AStarFinder();
 
     // console.log(JSON.stringify(grid));
+
+    // console.log('I"m live!!!',boot.pos);
 
     if(
       boot.pos.x > -1 &&
