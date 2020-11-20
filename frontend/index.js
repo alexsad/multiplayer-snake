@@ -3,7 +3,9 @@ const FOOD_COLOUR = '#e66916';
 
 // const socket = io('https://sleepy-island-33889.herokuapp.com/');
 // const socket = io('http://127.0.0.1:3000');
-const socket = io(`${document.location.protocol}//${document.location.hostname}:3000`);
+// const socket = io(`${document.location.protocol}//${document.location.hostname}:3000`);
+// const socket = io(`ws://${document.location.host}`);
+const socket = io();
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);

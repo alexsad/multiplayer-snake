@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "pathfinding": "^0.4.18",
-    "socket.io": "^2.3.0"
-  }
-}
