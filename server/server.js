@@ -6,7 +6,7 @@ const { initGame, gameLoop, getUpdatedVelocity, newPlayerObject } = require('./g
 const { FRAME_RATE } = require('./constants');
 const { makeid } = require('./utils');
 
-app.use(express.static('./'));
+app.use(express.static('./frontend'));
 
 const state = {};
 const clientRooms = {};
